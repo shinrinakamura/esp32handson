@@ -1,4 +1,5 @@
 #define LED_PIN 12   //ピンの番号を指定する
+
 void setup() {
   Serial.begin(115200);               //シリアル通信のスタート
   Serial.println("LED Brynk start");  //コンソールに表示する
